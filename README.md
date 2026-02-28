@@ -13,6 +13,30 @@
 
 - 기본 로드 URL: `https://grpmb.sehan.ac.kr/mobile/#/login`
 
+## 파일 9개 다운로드 방법
+
+아래 2가지 중 편한 방법으로 받으시면 됩니다.
+
+### 방법 1) Git으로 한 번에 받기 (추천)
+
+```bash
+git clone <저장소주소>
+cd <저장소폴더>
+```
+
+### 방법 2) ZIP으로 받기
+
+- GitHub 저장소 페이지에서 **Code > Download ZIP** 클릭
+- 압축 해제하면 9개 파일이 모두 들어있습니다.
+
+### 방법 3) 현재 폴더를 직접 ZIP으로 만들기
+
+```bash
+zip -r persistent-login-app.zip .
+```
+
+생성된 `persistent-login-app.zip` 파일 하나만 전달하면 됩니다.
+
 ## APK 만드는 방법 (로컬 PC)
 
 이 저장소는 소스코드 프로젝트라서, APK는 아래 명령으로 직접 생성할 수 있습니다.
